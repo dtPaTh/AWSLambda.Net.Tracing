@@ -1,0 +1,11 @@
+﻿{
+  "Tenant": "xxxxx",
+  "ClusterID": xxxxx,
+  "Connection": {
+    "BaseUrl": "https://xxxxxx.live.dynatrace.com",
+    "AuthToken": "xxxx"
+  },
+  "OpenTelemetry": {
+    "EnableIntegration": true
+  }
+}
