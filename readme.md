@@ -35,6 +35,7 @@ The aspect configures the OpenTelemetry trace-provider as described [here](https
 ### How-To use
 
 #### 1. Add the nuget package to your project e.g. via command line. 
+[![NuGet](http://img.shields.io/nuget/v/Path.AWSLambda.Tracing.svg)](https://www.nuget.org/packages/Path.AWSLambda.Tracing/)
 
 ```
 dotnet add package PaTh.AWSLambda.Tracing
