@@ -59,6 +59,8 @@ To get extensive log output to troubleshoot potential configuration issues, add 
 ```
 DT_LOGGING_DESTINATION=stdout
 ```
+### Troubleshooting issues when using the AWS .NET Mock Lambda Test Tool
+ The OpenTelemetry resource detector for AWS Lambda fails due to missing environment variables not set by the tool, which requires to set the following environment variables in the TestTool launch settings: ```AWS_LAMBDA_FUNCTION_VERSION```and ```AWS_REGION```. See also the related [github issue](https://github.com/aws/aws-lambda-dotnet/issues/1593)
 
 ## Contribute
 This is an open source project, and we gladly accept new contributions and contributors.  
