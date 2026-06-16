@@ -1,4 +1,5 @@
-# Trace .NET AWS Lambda Functions with Dynatrace
+# [DEPRECATED] Trace .NET AWS Lambda Functions with Dynatrace
+This project is DEPRECATED as Dynatrace provides automatic instrumentation for for AWS Lambda Functions written in .NET. 
 
 ## Distributed Tracing
 [Dynatrace](https://www.dyntrace.com) offers an automatic instrumentation for AWS Lambda Python, Node.JS and Java via [Dynatrace AWS Lambda Layer]()
